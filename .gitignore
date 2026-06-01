@@ -1,0 +1,25 @@
+# Secrets and personal data
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+wallets.txt
+api_keys.txt
+private_keys.txt
+seed.txt
+mnemonic.txt
+config.local.json
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
